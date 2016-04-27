@@ -1,10 +1,11 @@
+import style from '../scss/responsive.scss';
 import React from "react";
 import ReactDOM from "react-dom";
 import {Router, Route, IndexRoute, hashHistory} from "react-router";
 
 import Archives from "./pages/Archives";
 import Featured from "./pages/Featured";
-import Layout from "./pages/Shared/Layout.js";
+import Layout from "./pages/Shared/Layout";
 import Settings from "./pages/Settings";
 
 const app = document.getElementById('app');

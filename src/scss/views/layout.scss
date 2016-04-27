@@ -4,8 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Abel);
-
-body {
+body{
   font-family: 'Roboto', sans-serif;
   position: relative;
   font-weight:400;
@@ -42,19 +41,19 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
-.navbar-toggle {
+.navbar-toggle{
   width:100%;
   background-color: #3498DB;
   float:left;
 }
 
 /*set row*/
-.row {
+.row{
     margin-right: 0;
     margin-left:  0;
 }
 
-a#scrollUp {
+a#scrollUp{
   bottom: 0px;
   right: 10px;
   padding: 5px 10px;
@@ -66,6 +65,10 @@ a#scrollUp {
 
 a#scrollUp i{
   font-size: 30px;
+}
+
+#footer {
+  background: #F0F0E9;
 }
 
 
