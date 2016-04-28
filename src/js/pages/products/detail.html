@@ -1,0 +1,22 @@
+﻿<section>
+    <div class="container">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="#" ui-sref="home">Home</a></li>
+                <li><a href="#" ui-sref="productCategory({ category: category })">{{category}}</a></li>
+                <li class="active">{{product.Name}}</li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <myleftsidebar></myleftsidebar>
+            </div>
+
+            <div class="col-sm-9 padding-right">
+                <productdetails data="product"></productdetails>
+                <recommendeditems title="{{category}}" data="products" type="'product'"></recommendeditems>
+
+            </div>
+        </div>
+    </div>
+</section>

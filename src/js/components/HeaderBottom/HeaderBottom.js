@@ -2,6 +2,8 @@ import style from './style.scss';
 
 import React, { Component } from 'react';
 
+import SearchBox from "../SearchBox/SearchBox";
+
 export default class HeaderBottom extends Component {
   render() {
     return (
@@ -14,7 +16,7 @@ export default class HeaderBottom extends Component {
                       </div>
                   </div>
                   <div class="col-sm-6">
-                      <searchbox></searchbox>
+                      <SearchBox/>
                   </div>
               </div>
           </div>

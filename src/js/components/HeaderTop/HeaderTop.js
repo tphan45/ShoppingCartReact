@@ -2,6 +2,10 @@ import style from './style.scss';
 
 import React, { Component } from 'react';
 
+import CurrencySelector from "../CurrencySelector/CurrencySelector";
+import Cart from "../Cart/Cart";
+
+
 export default class HeaderTop extends Component {
   render() {
     return (
@@ -9,7 +13,7 @@ export default class HeaderTop extends Component {
           <div class="container">
               <div class="row">
                   <div class="col-sm-2">
-                      <currencyselector></currencyselector>
+                      <CurrencySelector/>
                   </div>
                   <div class="col-sm-10">
                       <div class="shop-menu pull-right">
@@ -25,7 +29,7 @@ export default class HeaderTop extends Component {
                               <li id="topcartlink">
                                   <a ui-sref="shoppingCart" class="ico-cart">
                                       <span class="cart-label"><i class="fa fa-shopping-cart"></i> Shopping cart</span>
-                                      <mycart></mycart>
+                                      <Cart/>
                                       <i class="fa fa-angle-down"></i>
                                   </a>                       
                               </li>                      

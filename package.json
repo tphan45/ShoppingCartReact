@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "webpack.config.js",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer-core": "^6.0.1",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
@@ -15,6 +15,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
     "history": "^1.17.0",
     "node-sass": "^3.5.3",
     "postcss-color-rebeccapurple": "^2.0.0",
@@ -24,10 +25,10 @@
     "react-router": "^2.3.0",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "webpack-dev-server --content-base src --inline --hot",
     "test": "webpack"
